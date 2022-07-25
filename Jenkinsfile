@@ -1,7 +1,12 @@
 pipeline {
     agent any
     tools {
-       NodeJS 'node'
+	    npm {
+         name "npm"
+         version "3.10.8"
+       }
+              
+
               
        
     }
