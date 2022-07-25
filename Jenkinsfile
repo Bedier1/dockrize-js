@@ -1,15 +1,5 @@
 pipeline {
     agent any
-    tools {
-	    npm {
-         name "npm"
-         version "3.10.8"
-       }
-              
-
-              
-       
-    }
     stages {
         stage('install dep') {
             steps {
